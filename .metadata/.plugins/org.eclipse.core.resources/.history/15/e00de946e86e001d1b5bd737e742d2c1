@@ -1,0 +1,25 @@
+package com.example.demo.vo;
+
+public class EmpVo {
+
+	private int empno; // 사원 번호
+	private String ename; // 사원이름
+	private String job; // 직업
+	private int sal; // 급여
+	private String hiredate; // 입사날짜
+	
+	public int getEmpno() {
+		return empno;
+	}
+	public void setEmpno(int empno) {
+		this.empno = empno;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	
+	
+}
