@@ -9,11 +9,19 @@ import com.dw.emp.vo.EmpVO;
 @Mapper
 public interface EmpMapper {
 
-	/**
-	 * @Since : 2022. 12. 7.
-	 * @Author : 미스터 빈
-	 * @Return : List<EmpVO> 	
-	 * @comment : Emp 테이블 전체 조회
-	 */
-	List<EmpVO> select(); // 메소드 정의
+	public List<EmpVO> selectEmp();
+	
+	// 검색
+	public EmpVO selectEmpfindByEmpno(int empno);
+	
+	// 삭제
+	int deleteEmpno(int empno);
+	
+	// 추가
+	int insertEmp(EmpVO vo);
+	
+	// 수정
+	// 인서트 내용이 많으면 객체로 변환 후 수행
+	int updateEmp(EmpVO vo);
+	
 }

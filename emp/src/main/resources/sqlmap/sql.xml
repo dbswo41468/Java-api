@@ -1,10 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.dw.emp.mapper.EmpMapper">
-
 	<select id="selectEmp" resultType="com.dw.emp.vo.EmpVO">
-		select * from emp
-	
+		SELECT
+		empno,
+		ename,
+		job,
+		sal,
+		hiredate,
+		loc,
+		dname
+		FROM emp AS e
+		INNER JOIN dept AS d
+		ON e.deptno = d.deptno
 	</select>
+
+	<!-- 검색 -->
+	<select id="selectEmpfindByEmpno"
+		resultType="com.dw.emp.vo.EmpVO">
+		SELECT
+		ename,
+		ifnull(sal, 100) AS sal,
+		ifnull(comm, 0) AS comm
+		FROM emp
+		WHERE empno = #{empno}
+	</select>
+
+	<!-- 삭제 -->
+	<delete id="deleteEmpno">
+
+		DELETE FROM emp
+		WHERE empno = #{empno}
+
+	</delete>
+
+	<!-- 추가 -->
+	<insert id="insertEmp">
+		INSERT INTO emp
+		(
+		empno,
+		ename,
+		job,
+		sal,
+		deptno
+
+		)
+		VALUES
+		(
+		#{empno},
+		#{ename},
+		#{job},
+		#{sal},
+		#{deptno}
+
+		)
+
+	</insert>
+
+	<!-- 수정 -->
+	<update id="updateEmp">
+
+		UPDATE emp
+		SET
+			empno = #{empno},
+			sal = #{sal},
+			job = #{job}
+		WHERE empno = #{empno}
+
+	</update>
 
 </mapper>
