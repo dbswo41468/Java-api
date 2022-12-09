@@ -10,4 +10,6 @@ public class EmpController {
 	public String loadPage() {
 		return "emp";
 	}
+	
+
 }
