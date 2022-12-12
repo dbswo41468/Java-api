@@ -6,7 +6,14 @@ public class BoaVO {
 	private String writer; // 작성자
 	private String create_at; // 작성날짜
 	private int board_count; // 조회수
+	private String contents; // 콘텐츠
 	
+	public String getContents() {
+		return contents;
+	}
+	public void setContents(String contents) {
+		this.contents = contents;
+	}
 	public int getBoard_no() {
 		return board_no;
 	}

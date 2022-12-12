@@ -7,4 +7,50 @@
 	<select id="selectBoa" resultType="com.dw.emp.vo.BoaVO">
 		select * from board
 	</select>
+
+	<!-- 게시물 생성 -->
+	<insert id="insertBoard">
+		INSERT INTO board
+		(
+		title,
+		contents,
+		writer
+		)
+		VALUES
+		(
+		#{title},
+		#{contents},
+		#{writer}
+		)
+	</insert>
+	<!-- 수정 하기 위해 페이지 이동 -->
+	<!-- select 는 resultType 을 꼭 써야한다 이후 문장은 ctrl+스페이스바 하면 나온다 -->
+	<select id="selectBoardFindByBoardNo"
+		resultType="com.dw.emp.vo.BoaVO">
+		SELECT
+		title,
+		contents,
+		writer
+		FROM board
+		WHERE board_no =
+		#{board_no}
+	</select>
+
+	<!-- 삭제 -->
+	<delete id="deleteBoard">
+
+		DELETE FROM board
+		WHERE board_no = #{board_no}
+
+	</delete>
+
+	<!-- 수정 -->
+	<update id="updateBoard">
+		UPDATE board
+		SET
+		contents = #{contents},
+		title = #{title},
+		writer = #{writer}
+		WHERE board_no = #{board_no}
+	</update>
 </mapper>

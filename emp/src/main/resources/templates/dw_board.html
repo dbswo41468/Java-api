@@ -69,7 +69,8 @@ tr:nth-child(even) {
 	<div id="container">
 		<h1>DW 게시판</h1>
 		<div class="button">
-			<button type="button">게시물 작성
+			<button onclick="goWrite()" type="button">게시물 작성
+			<button onclick="datailBoard()" type="button">게시물 수정
 		</div>
 		<div id="table_wrap">
 			<table id="board">
@@ -86,25 +87,51 @@ tr:nth-child(even) {
 	integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
 	crossorigin="anonymous"></script>
 <script type="text/javascript">
-	function callApi() {
+	callAPI(); // 함수 호출
+
+	function callAPI() {
+
+		// ajax : 백엔드와 프론트가 통신하는 기능!
+		// type : GET == Controller에 GetMapping
+		// dataType : return 데이터를 json으로 받음
+		var s = [];
 		$.ajax({
-			url : '/api/v1/bor',
+			url : '/api/v1/board',
 			type : 'GET',
 			dataType : 'json',
 			success : function(response) {
-				var html = '';
-				for (var i = 0; i < response.length; i++) {
-					html += '<tr onclick="getEmp(' + response[i].empno
-							+ ')"><td>' + response[i].empno + '</td><td>'
-							+ response[i].ename + '</td><td>' + response[i].job
-							+ '</td><td>' + response[i].sal + '</td><td>'
-							+ response[i].hiredate + '</td><td>'
-							+ response[i].dname + '</td><td>' + response[i].loc
-							+ '</td></tr>';
+				console.log(response);
+				for ( var i in response) {
+					tr = $('<tr></tr>');
+
+					board_no = $('<td>' + response[i].board_no + '</td>');
+					title = $('<td onclick="detailBoard('+ response[i].board_no+')"><a hrdf="#">' + response[i].title + '</a></td>');
+					writer = $('<td>' + response[i].writer + '</td>');
+					create_at = $('<td>' + response[i].create_at + '</td>');
+					board_count = $('<td>' + response[i].board_count + '</td>');
+
+					tr.append(board_no);
+					tr.append(title);
+					tr.append(writer);
+					tr.append(create_at);
+					tr.append(board_count);
+
+					$("#board").append(tr);
 				}
-				$('#data').append(html);
 			}
 		});
 	}
+
+	function goWrite() {
+		location.href = '/write'
+	}
+	
+	// 게시물 상세 화면으로 이동
+	function detailBoard(boardNo) { 
+		console.log(boardNo)
+		location.href='/board/'+boardNo; // 게시판 pk url(controller)에 전달
+	}
+	
+	
 </script>
 </html>
