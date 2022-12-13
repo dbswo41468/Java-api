@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DW 게시판</title>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	margin-top: 70px;
+	background-color: #119208;
+}
+
+#container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+button {
+	width: 170px;
+	height: 60px;
+	font-size: 22px;
+	font-weight: 700;
+	border: 1px solic black;
+	border-radius: 7px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+table {
+	margin: 0 auto;
+	width: 1200px;
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 1200px;
+	margin-top: 50px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+.button {
+	text-align: right;
+}
+
+td, th {
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+	text-align: center;
+	height: 28px;
+	font-size: 20px;
+}
+
+th {
+	background-color: #ffe4b5
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+	<div id="member">
+		<h1>멤버 게시판</h1>
+		<div id="table_wrap">
+			<table id="members">
+				<th>게시판 번호</th>
+				<th>게시판 제목</th>
+				<th>작성자</th>
+			</table>
+		</div>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js"
+	integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+	crossorigin="anonymous"></script>
+<script type="text/javascript">
+	callAPI(); // 함수 호출
+
+	function callAPI() {
+
+		// ajax : 백엔드와 프론트가 통신하는 기능!
+		// dataType : return 데이터를 json으로 받음
+		var s = [];
+		$.ajax({
+			url : '/member',
+			type : 'GET',
+			contentType : 'application/json',
+			dataType : 'json',
+			success : function(response) {
+				for ( var i in response) {
+					tr = $('<tr></tr>');
+
+					var id = $('<td>' + response[i].id + '</td>');
+					var name = $('<td>' + response[i].name + '</td>');
+					var age = $('<td>' + response[i].age + '</td>');
+
+					tr.append(id);
+					tr.append(name);
+					tr.append(age);
+
+					$("#members").append(tr);
+				}
+			}
+		});
+	}
+
+	
+</script>
+</html>
