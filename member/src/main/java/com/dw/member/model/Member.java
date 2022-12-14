@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 // vo 기능
@@ -24,6 +26,22 @@ public class Member {
 	@Column
 	private int age; // 나이
 	
+	// 조인
+	// One to Many 구분 해야한다
+	// One to One 
+	// Many to Many 
+	@ManyToOne
+	// @JoinColumn() -> member 테이블에 dept_id 라는 컬럼(FK)생성
+	@JoinColumn(name ="dept_id")
+	private Dept dept;
+	
+	
+	public Dept getDept() {
+		return dept;
+	}
+	public void setDept(Dept dept) {
+		this.dept = dept;
+	}
 	public long getId() {
 		return id;
 	}

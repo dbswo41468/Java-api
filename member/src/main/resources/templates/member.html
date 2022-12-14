@@ -66,6 +66,21 @@ tr:nth-child(even) {
 </style>
 </head>
 <body>
+	<div class="button">
+		<input id="id" placeholder="게시판 번호 입력">
+		<button type="button" onclick="dodelete()">삭제하기</button>
+
+		<input type="text" id="u_id" placeholder="id 입력"> <input
+			type="text" id="u_name" placeholder="이름 입력"> <input
+			type="text" id="u_age" placeholder="나이 입력">
+		<button type="button" onclick="doupdate()">수정하기</button>
+
+
+		<input type="text" id="a_name" placeholder="이름 입력"> <input
+			type="text" id="a_age" placeholder="나이 입력"> <input
+		<button type="button" onclick="doadd()">추가하기</button>
+	</div>
+
 	<div id="member">
 		<h1>멤버 게시판</h1>
 		<div id="table_wrap">
@@ -73,6 +88,7 @@ tr:nth-child(even) {
 				<th>게시판 번호</th>
 				<th>게시판 제목</th>
 				<th>작성자</th>
+				<th>부서이름</th>
 			</table>
 		</div>
 	</div>
@@ -83,6 +99,7 @@ tr:nth-child(even) {
 <script type="text/javascript">
 	callAPI(); // 함수 호출
 
+	// 조회
 	function callAPI() {
 
 		// ajax : 백엔드와 프론트가 통신하는 기능!
@@ -100,10 +117,13 @@ tr:nth-child(even) {
 					var id = $('<td>' + response[i].id + '</td>');
 					var name = $('<td>' + response[i].name + '</td>');
 					var age = $('<td>' + response[i].age + '</td>');
+					// 조인 후 부서 이름 가져오기
+					var dname = $('<td>' + response[i].dept.dname + '</td>');
 
 					tr.append(id);
 					tr.append(name);
 					tr.append(age);
+					tr.append(dname);
 
 					$("#members").append(tr);
 				}
@@ -111,6 +131,69 @@ tr:nth-child(even) {
 		});
 	}
 
-	
+	// 삭제
+	function dodelete() {
+		var id = $("#id").val();
+
+		$.ajax({
+			url : '/member/' + id,
+			type : 'DELETE',
+			dataType : 'json',
+			success : function(response) {
+				alert("삭제");
+				console.log(response)
+				location.reload();
+			}
+		});
+	}
+	// 수정
+	function doupdate() {
+
+		var id = $("#u_id").val();
+		var name = $("#u_name").val();
+		var age = $("#u_age").val();
+
+		var data = {
+			"id" : id,
+			"name" : name,
+			"age" : age
+
+		};
+		$.ajax({
+			url : '/member',
+			type : 'PATCH',
+			contentType : 'application/json',
+			data : JSON.stringify(data),
+			dataType : 'json',
+			success : function(response) {
+				alert("수정");
+				location.reload();
+			}
+		});
+	}
+
+	// 추가
+	function doadd() {
+		var name = $("#a_name").val();
+		var age = $("#a_age").val();
+
+		var data = {
+			"name" : name,
+			"age" : age
+
+		};
+
+		$.ajax({
+			url : '/member',
+			type : 'POST',
+			contentType : 'application/json', // 서버에 json 타입으로 보낼 예정 (요청)
+			data : JSON.stringify(data),
+			dataType : 'json',
+			success : function(response) {
+				alert("추가 완료");
+				location.reload(); // 강제 새로고침
+			}
+		});
+	}
 </script>
 </html>
