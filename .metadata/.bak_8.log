@@ -1,4 +1,4 @@
-!SESSION 2022-11-29 13:42:57.501 -----------------------------------------------
+!SESSION 2022-12-07 15:17:52.150 -----------------------------------------------
 eclipse.buildId=4.24.0.I20220607-0700
 java.version=17.0.4
 java.vendor=Eclipse Adoptium
@@ -7,9 +7,9 @@ Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
 This is a continuation of log file C:\spring-workspaces\.metadata\.bak_7.log
-Created Time: 2022-11-29 14:12:17.643
+Created Time: 2022-12-07 16:28:25.830
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.644
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.831
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -61,7 +61,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -114,7 +114,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.645
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.834
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -166,7 +166,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -219,7 +219,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.646
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.835
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -271,7 +271,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -324,7 +324,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.647
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.836
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -376,7 +376,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -429,7 +429,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.647
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.837
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -481,7 +481,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -534,7 +534,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.648
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.838
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -586,7 +586,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -639,7 +639,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.649
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.839
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -691,7 +691,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -744,7 +744,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.650
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.840
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -796,7 +796,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -849,7 +849,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.651
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.841
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -901,7 +901,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -954,7 +954,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.652
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.842
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -1006,7 +1006,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -1059,7 +1059,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.653
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.842
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -1111,7 +1111,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -1164,7 +1164,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.654
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.843
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -1216,7 +1216,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -1269,7 +1269,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.654
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.844
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -1321,7 +1321,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -1374,7 +1374,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.655
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.845
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -1426,7 +1426,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -1479,7 +1479,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.656
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.846
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -1531,7 +1531,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -1584,7 +1584,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.657
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.847
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -1636,7 +1636,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -1689,7 +1689,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.658
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.848
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -1741,7 +1741,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -1794,7 +1794,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.659
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.849
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -1846,7 +1846,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -1899,7 +1899,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.659
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.850
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -1951,7 +1951,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -2004,7 +2004,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.660
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.850
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -2056,7 +2056,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -2109,7 +2109,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.661
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.851
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -2161,7 +2161,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -2214,7 +2214,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.662
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.852
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -2266,7 +2266,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -2319,7 +2319,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.663
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.853
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -2371,7 +2371,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -2424,7 +2424,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.664
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.854
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -2476,7 +2476,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -2529,7 +2529,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.665
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.855
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -2581,7 +2581,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -2634,7 +2634,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.666
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.856
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -2686,7 +2686,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -2739,7 +2739,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.666
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.857
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -2791,7 +2791,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -2844,7 +2844,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.667
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.858
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -2896,7 +2896,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -2949,7 +2949,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.668
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.859
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -3001,7 +3001,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -3054,7 +3054,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.669
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.859
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -3106,7 +3106,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -3159,7 +3159,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.670
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.860
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -3211,7 +3211,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -3264,7 +3264,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.671
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.861
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -3316,7 +3316,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -3369,7 +3369,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.672
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.862
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -3421,7 +3421,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -3474,7 +3474,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.672
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.863
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -3526,7 +3526,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -3579,7 +3579,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.673
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.864
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -3631,7 +3631,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -3684,7 +3684,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.674
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.865
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -3736,7 +3736,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -3789,7 +3789,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.675
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.866
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -3841,7 +3841,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -3894,7 +3894,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.676
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.867
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -3946,7 +3946,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -3999,7 +3999,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.677
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.868
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -4051,7 +4051,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -4104,7 +4104,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.678
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.869
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -4156,7 +4156,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -4209,7 +4209,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.678
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.870
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -4261,7 +4261,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -4314,7 +4314,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.679
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.871
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -4366,7 +4366,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -4419,7 +4419,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.680
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.871
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -4471,7 +4471,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -4524,7 +4524,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.681
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.872
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -4576,7 +4576,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -4629,7 +4629,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.682
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.873
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -4681,7 +4681,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -4734,7 +4734,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.683
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.874
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -4786,7 +4786,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -4839,7 +4839,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.684
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.875
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -4891,7 +4891,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -4944,7 +4944,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.685
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.876
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -4996,7 +4996,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -5049,7 +5049,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.685
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.877
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -5101,7 +5101,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -5154,7 +5154,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.686
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.878
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -5206,7 +5206,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -5259,7 +5259,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.687
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.879
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -5311,7 +5311,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -5364,7 +5364,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.688
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.880
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -5416,7 +5416,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -5469,7 +5469,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.689
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.881
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -5521,7 +5521,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -5574,7 +5574,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.690
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.882
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -5626,7 +5626,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -5679,7 +5679,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.691
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.883
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -5731,7 +5731,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -5784,7 +5784,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.692
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.883
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -5836,7 +5836,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -5889,7 +5889,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.693
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.884
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -5941,7 +5941,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -5994,7 +5994,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.693
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.885
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -6046,7 +6046,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -6099,7 +6099,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.694
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.886
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -6151,7 +6151,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -6204,7 +6204,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.695
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.887
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -6256,7 +6256,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -6309,7 +6309,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.696
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.888
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -6361,7 +6361,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -6414,7 +6414,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.697
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.889
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -6466,7 +6466,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -6519,7 +6519,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.698
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.890
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -6571,7 +6571,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -6624,7 +6624,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.699
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.891
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -6676,7 +6676,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -6729,7 +6729,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.700
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.892
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -6781,7 +6781,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -6834,7 +6834,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.700
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.892
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -6886,7 +6886,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -6939,7 +6939,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.701
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.893
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -6991,7 +6991,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -7044,7 +7044,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.702
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.894
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -7096,7 +7096,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -7149,7 +7149,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.703
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.895
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -7201,7 +7201,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -7254,7 +7254,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.704
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.896
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -7306,7 +7306,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -7359,7 +7359,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.705
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.897
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -7411,7 +7411,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -7464,7 +7464,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.706
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.898
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -7516,7 +7516,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -7569,7 +7569,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.707
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.899
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -7621,7 +7621,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -7674,7 +7674,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.708
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.900
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -7726,7 +7726,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -7779,7 +7779,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.708
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.901
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -7831,7 +7831,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -7884,7 +7884,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.709
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.902
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -7936,7 +7936,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -7989,7 +7989,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.710
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.903
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -8041,7 +8041,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -8094,7 +8094,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.712
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.904
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -8146,7 +8146,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -8199,7 +8199,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.713
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.905
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -8251,7 +8251,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -8304,7 +8304,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.714
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.905
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -8356,7 +8356,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -8409,7 +8409,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.716
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.906
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -8461,7 +8461,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -8514,7 +8514,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.717
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.907
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -8566,7 +8566,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -8619,7 +8619,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.719
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.908
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -8671,7 +8671,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -8724,7 +8724,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.720
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.909
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -8776,7 +8776,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -8829,7 +8829,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.722
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.910
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -8881,7 +8881,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -8934,7 +8934,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.723
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.911
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -8986,7 +8986,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -9039,7 +9039,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.724
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.912
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -9091,7 +9091,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -9144,7 +9144,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.725
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.913
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -9196,7 +9196,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -9249,7 +9249,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.726
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.914
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -9301,7 +9301,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -9354,7 +9354,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.727
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.915
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -9406,7 +9406,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -9459,7 +9459,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.728
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.916
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -9511,7 +9511,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -9564,7 +9564,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.729
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.918
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -9616,7 +9616,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -9669,7 +9669,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.730
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.919
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -9721,7 +9721,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -9774,7 +9774,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.731
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.920
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -9826,7 +9826,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -9879,7 +9879,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.732
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.921
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -9931,7 +9931,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -9984,7 +9984,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.733
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.922
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -10036,7 +10036,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -10089,7 +10089,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.734
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.923
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -10141,7 +10141,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -10194,7 +10194,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.736
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.924
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -10246,7 +10246,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -10299,7 +10299,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.737
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.925
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -10351,7 +10351,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -10404,7 +10404,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.738
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.926
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -10456,7 +10456,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -10509,7 +10509,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.739
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.928
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -10561,7 +10561,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -10614,7 +10614,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.740
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.929
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -10666,7 +10666,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -10719,7 +10719,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.741
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.930
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -10771,7 +10771,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -10824,7 +10824,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.742
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.931
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -10876,7 +10876,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -10929,7 +10929,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.743
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.932
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -10981,7 +10981,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -11034,7 +11034,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.744
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.933
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -11086,7 +11086,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -11139,7 +11139,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.745
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.934
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -11191,7 +11191,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
@@ -11244,7 +11244,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-11-29 14:12:17.745
+!ENTRY org.eclipse.ui.ide 4 4 2022-12-07 16:28:25.935
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -11296,7 +11296,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)

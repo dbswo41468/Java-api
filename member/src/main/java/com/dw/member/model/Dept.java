@@ -7,6 +7,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 @Entity
 @Table(name = "dw_dept")
 public class Dept {
@@ -14,24 +19,7 @@ public class Dept {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "dept_id")
 	public long id; // pk
-
 	@Column
 	public String dname; // 부서이름
-
-	public long getId() {
-		return id;
-	}
-
-	public void setId(long id) {
-		this.id = id;
-	}
-
-	public String getDname() {
-		return dname;
-	}
-
-	public void setDname(String dname) {
-		this.dname = dname;
-	}
 
 }

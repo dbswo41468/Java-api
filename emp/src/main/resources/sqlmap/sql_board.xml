@@ -48,6 +48,7 @@
 	<update id="updateBoard">
 		UPDATE board
 		SET
+		board_no = #{board_no},
 		contents = #{contents},
 		title = #{title},
 		writer = #{writer}

@@ -1,9 +1,11 @@
 HELP.md
+# 이하 때문에 깃 푸쉬에서 제외된다
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+# ========
 
 ### STS ###
 .apt_generated

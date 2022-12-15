@@ -2,6 +2,9 @@ package com.dw.member.Controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -73,6 +76,20 @@ public class Membercontroller {
 	public Member callMemberById(@PathVariable long id) {
 		// findById == select * from emp where empno = 333;
 		return repo.findById(id).get();
+	}
+
+	// 로그인
+	@PostMapping("/login")
+	public boolean callLogin(@RequestBody Member member, HttpServletRequest request) {
+
+		Member m = repo.findByuserIdAndUserPassword(member.getUserId(), member.getUserPassword());
+		if (m != null) {
+			HttpSession session = request.getSession();// 세션 불러오기
+			session.setAttribute("userId", m.getUserId()); // 세션에 사용자 아이디 저장
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 }

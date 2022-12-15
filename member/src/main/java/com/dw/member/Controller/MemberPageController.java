@@ -12,4 +12,9 @@ public class MemberPageController {
 		return "member";
 	}
 
+	@GetMapping("/login")
+	public String loadLoginPage(){
+		return"login";
+	}
+
 }
