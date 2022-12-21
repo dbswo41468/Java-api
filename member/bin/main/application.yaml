@@ -1,0 +1,13 @@
+## MYSQL 
+## datasource: 와 jpa: 는 같은 선상에 있어야된다
+spring: 
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dw_501
+    username: root  
+    password: enenqn13!
+  jpa:
+   database: mysql
+   generate-ddl: true
+   hibernate.ddl.auto: update
+   show-sql: true

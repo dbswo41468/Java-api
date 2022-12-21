@@ -18,8 +18,8 @@ public class Dept {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "dept_id")
-	public long id; // pk
+	private long id; // pk
 	@Column
-	public String dname; // 부서이름
+	private String dname; // 부서이름
 
 }
